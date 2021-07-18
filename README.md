@@ -180,7 +180,7 @@ POST | "/api/search" | { searchtext: string } | Search the API based on req.body
 
 ## Packages & dependencies used
 
-### Frontendhttps://res.cloudinary.com/dnrpubnmn/image/upload/c_scale,w_600/v1626603061/Landing2_w7t9rk.png
+### Frontend
 
 | Package             | Version | Link                                                      |
 | ------------------- | ------- | --------------------------------------------------------- |
