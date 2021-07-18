@@ -76,44 +76,45 @@ Run the command ` npm run dev` or `yarn run dev` to launch the development serve
 ├── node_modules		# holds packages and dependencies
 |
 ├── public				# Required files for running code on browser
-|	├── favicon.ico		# Favicon		
+|	  ├── favicon.ico		# Favicon		
 │   └── index.html		# Root file for showing content on browser
 |
 ├── src		# Main folder of project 
-|	|
+|	  |
 │   ├── __test__				# Folder for testing files
 │   │   └── App.test.tsx		# Vanilla test for running the app
-|	|
+|	  |
 │   ├── assets					# Folder for static files
-|	|	├── fonts
+|	  |	├── fonts
 │   │   └── images    
-|	|
+|	  |
 │   ├── components				# Folder containing components				
-|	|	├── Albums				# Album UI related components
-|	|	|	├── AlbumCard.tsx	# Contains card element for every element
-|	|	|	├── AlbumList.tsx	# Contains the searchbar, buttongroup and maps search results into Album Cards
-|	|	|	└── Searchbar.tsx	# Holds the search input and related buttons
-│   │   └── UI					# Generic UI related components
-|	|		├── Layout
-|	|		|	├── Footer.tsx
-|	|		|	├── Header.tsx
-|	|		|	└── Layout.tsx	# Holds Header, Footer and content for Layout
-|	|		|
-|	|		└── ButtonGroup.tsx	# Holds the search filter buttons group
-|	|
+|	  |	├── Albums				# Album UI related components
+|	  |	|	├── AlbumCard.tsx	# Contains card element for every element
+|	  |	|	├── AlbumList.tsx	# Contains the searchbar, buttongroup and maps search results into Album Cards
+|	  |	|	└── Searchbar.tsx	# Holds the search input and related buttons
+│   |
+|   │ └── UI					# Generic UI related components
+|	  |		├── Layout
+|	  |	  |	├── Footer.tsx
+|	  |	  |	├── Header.tsx
+|	  |	  |	└── Layout.tsx	# Holds Header, Footer and content for Layout
+|	  |		|
+|	  |		└── ButtonGroup.tsx	# Holds the search filter buttons group
+| 	|
 │   ├── interfaces			# Contains TypeScript interface files
-|	|	├── Album.interface.ts
-|	|	└── Search.interface.ts
-|	|
+|	  |	├── Album.interface.ts
+|	  |	└── Search.interface.ts
+|	  |
 │   ├── services			# Axios logic to call the API through Singleton service
-|	|	└── Album.service.ts
-|	|
+|	  |	└── Album.service.ts
+|	  |
 │   ├── styles				# Material UI design Theme customization
-|	|	├── expand-Theme.ts
-|	|	└── Theme.ts
-|	|
+|	  |	├── expand-Theme.ts
+|	  |	└── Theme.ts
+|	  |
 │   ├── utils				# Helper functions and global variables
-|	|
+|	  |
 │   ├── App.tsx			# Main component rendering React components
 │   └── Index.tsx		# Launches the React App into index.html DOM
 |
@@ -132,21 +133,21 @@ Run the command ` npm run dev` or `yarn run dev` to launch the development serve
 .
 ├── build		# Bundled TS code conversion
 │   ├── routes		# Routing logic
-|	├── index.js		# Middleware logic & server setup		
+| 	├── index.js		# Middleware logic & server setup		
 │   └── server.js		# Server Launching
 |
 ├── src		# Main folder of project 
-|	|
+|	  |
 │   ├── configs
 │   │   ├── cors.config.ts		# CORS configuration for requests
 │   │   └── middleware.config.ts	# Body-parser, Morgan & PATH
-|	|
+|	  |
 │   ├── routes
 │   │   └── Search.routes.ts	# Controller for routing searches    
-|	|
+|	  |
 │   ├── tests
 │   │   └── Search.routes.test.ts	# Testing for search controller    
-|	|
+|	  |
 │   ├── app.ts			# Middleware logic & server setup
 │   └── server.ts		# Launches the server
 |
