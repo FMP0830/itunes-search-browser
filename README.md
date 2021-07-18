@@ -4,9 +4,9 @@
 ![](https://res.cloudinary.com/dnrpubnmn/image/upload/c_scale,w_600/v1626603061/Landing1_fmntsd.png)
 
 
-A React frontend cliect Nodejs and Express server backend api with routes that allow users to search the [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html) for music albums based on user input, filtering the search text to look up the API for music artists.
+A React frontend client Nodejs and Express server backend api with routes that allow users to search the [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html) for music albums based on user input, filtering the search text to look up the API for music artists.
 
-Once the user gets the data in the frontend, there is an option to show extra filtering buttons to sort the results by artist, album title or release date as well as a second searchbar to filter the results in real time through text searching
+Once the user gets the data in the frontend, there is an option to show extra filtering buttons to sort the results by artist, album title or release date as well as a second searchbar to filter the results in real time through text searching.
 
 
 
@@ -16,7 +16,7 @@ Once the user gets the data in the frontend, there is an option to show extra fi
   - Developed in React with `create-react-app` template
   - Developed in TypeScript
 - Backend
-  - Developed in NodeJS, Express
+  - Developed in NodeJS with ExpressJS
   - Developed in TypeScript
   - Use of Jest and supertest for unit testing
 
@@ -28,7 +28,7 @@ Once the user gets the data in the frontend, there is an option to show extra fi
 
 After cloning the repositories, run `npm install` or `yarn install` in both subfolders to get the necessary dependencies in the root of every directory.
 
-The frontend codebase allows for customization through a Theme file in the Styles subfolder. It makes use of the [Material UI library](https://material-ui.com/), so detailed customization should be considered according to their specific [documentation](https://material-ui.com/customization/default-theme/). The frontend client will run by default on PORT 3000
+The frontend codebase allows for customization through a Theme file in the Styles subfolder. It makes use of the [Material UI library](https://material-ui.com/), so detailed customization should be considered according to their specific [documentation](https://material-ui.com/customization/default-theme/). The frontend client will run by default on PORT 3000.
 
 The backed codebase allows the user to use a `.env` file for the customization of global variables such as the PORT in which the server will run and the URL for the iTunes API. In the case the user does not have a `.env` file, the project is set to run by default on PORT 5000 and a preset query route for the API.
 
@@ -42,7 +42,7 @@ The backed codebase allows the user to use a `.env` file for the customization o
 
 Run the command ` npm start` or `yarn start` to launch the development client and start sending requests to the backend. 
 
-Please note that you should also launch the development backend server to get search restults
+Please note that you should also launch the development backend server to get search results.
 
 
 
@@ -53,7 +53,7 @@ Please note that you should also launch the development backend server to get se
 
 #### Running the test server
 
-Run the command `npm run test` or `yarn run test` to perform the unit tests to check on the correct behavior of the search routes
+Run the command `npm run test` or `yarn run test` to perform the unit tests to check on the correct behavior of the search routes.
 
 
 
@@ -217,7 +217,7 @@ POST | "/api/search" | { searchtext: string } | Search the API based on req.body
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/FMP0830/itunes-search-browser/issues) to report any bugs or file feature requests
+Please use the [issue tracker](https://github.com/FMP0830/itunes-search-browser/issues) to report any bugs or file feature requests.
 
 
 
