@@ -23,8 +23,6 @@ searchRouter.post('/', async (req: Request, res: Response): Promise<void> => {
 
 		const { results, resultCount } = info.data;
 
-		//TO-DO Eliminate duplicate entries by title
-
 		//If there is data, return it, otherwise send an error message
 		if (resultCount > 0) {
 			res.status(200).json({ results });
