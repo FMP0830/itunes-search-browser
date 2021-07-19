@@ -53,7 +53,7 @@ describe('test Search.route', () => {
 			.post('/api/search')
 			.send({ searchtext: '' })
 			.then(async (response) => {
-				expect(response.status).toBe(404);
+				expect(response.status).toBe(202)
 				expect(response.body.message).toBe(
 					'Please provide something to search'
 				);
