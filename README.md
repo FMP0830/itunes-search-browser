@@ -4,7 +4,7 @@
 ![](https://res.cloudinary.com/dnrpubnmn/image/upload/c_scale,w_600/v1626603061/Landing1_fmntsd.png)
 
 
-A React frontend client Nodejs and Express server backend api with routes that allow users to search the [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html) for music albums based on user input, filtering the search text to look up the API for music artists.
+A React frontend client with a Nodejs and Express server backend api. Has routes that allow users to search the [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html) for music albums based on user input, filtering the search text to look up the API for music artists.
 
 Once the user gets the data in the frontend, there is an option to show extra filtering buttons to sort the results by artist, album title or release date as well as a second searchbar to filter the results in real time through text searching.
 
